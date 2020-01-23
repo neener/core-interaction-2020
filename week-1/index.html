@@ -37,9 +37,9 @@
       <li><code>touch</code> - make new file</li>
     </ul>
   </section>
-  <div>
+  <div style="display: flex;">
     <img src="img/terminal.png" alt="terminal">
-    <img src="img/gui.png" alt="gui" width="650" height="435">
+    <img src="img/gui.png" alt="gui">
   </div>
   <hr>
   <h2>Text Editors Setup:<input type="checkbox"></h2>
@@ -57,7 +57,9 @@
   <h2>HTML !DOCTYPE<input type="checkbox"></h2>
   <p><a href="https://www.w3schools.com/tags/tag_doctype.asp">w3schools doctype</a></p>
   <p><a href="https://www.w3schools.com/html/default.asp">w3schools html</a></p>
-  <img src="img/doctype.png" alt="doctype" width="650" height="435">
+  <div style="height: 400px;">
+    <img src="img/doctype.png" alt="doctype">
+  </div>
   <p><a href="https://www.youtube.com/watch?v=CkzbI1Tv_rQ&feature=emb_logo">Tutorial — Basics of HTML</a></p>
   <h1>!✨magic</h1><a href="https://code.visualstudio.com/docs/editor/emmet">emmet</a>
   <hr>
@@ -67,7 +69,7 @@
   <ol>
     <li>Click 'Create a new repository on your Hard Drive...'</li>
     <br>
-    <img src="img/github_desktop.png" alt="github_desktop" width="650" height="435">
+    <img src="img/github_desktop.png" alt="github_desktop">
     <li>Name the repository your github username. My username is <code>neener</code> so my repository name is <code>neener.github.io</code></li>
     <li>The <b>'Local Path'</b> should be directed to the file you made earlier <code>Sites/core-lab/</code></li>
     <li>Click <b>'Create Repository'</b></li>
@@ -85,7 +87,9 @@
     <h4>a standard network protocol used for the transfer of computer files between a client and a server on a computer network.</h4>
   </ul>
   <h3><a href="https://en.wikipedia.org/wiki/Internet_backbone">The Internet Backbone</a></h3>
-  <img src="img/Internet_map_1024.jpg" alt="internet_map" width="650" height="435">
+  <div style="height: 600px;">
+    <img src="img/Internet_map_1024.jpg" alt="internet_map">
+  </div>
   <p><a href="https://www.vox.com/a/internet-maps">History of how the internet was built in maps</a></p>
   <p><a href="https://www.nytimes.com/interactive/2019/03/10/technology/internet-cables-oceans.html">How the internet looks under the ocean</a></p>
 
@@ -106,13 +110,22 @@
 </body>
 
 <style>
+
   body {
     background-color: lightgrey;
   }
+
   code {
     background-color: black;
     color: chartreuse;
   }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
 </style>
 </html>
 
