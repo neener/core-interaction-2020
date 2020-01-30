@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Core Lab Week 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Core Lab:Interaction 2020</h1>
+  <h3>email: <a href="#">rosenjm@newschool.edu</a></h3>
+  <h2><pre>!--<em>week 2</em>--!</pre></h2>
+  <hr>
+  <h3>1. Download <b><a href="https://code.visualstudio.com/">VSCode</a></b> (if you don't already have it) </h3>
+  <h3>2. Drag <b>'Sites'</b> folder from your Desktop into your 'User' folder</h3>
+  <div class="image-medium"><img src="img/user-sites-path.png"></div>
+  <hr>
+  <h1>'Git' Review</h1>
+  <h3>Please take 10 minutes to write down and refamiliarize yourself with Git, you can use google! or refer back to <a href="https://neener.github.io/core-interaction-2020/week-1">week-1</a></h3>
+  <section class="git-review">  
+    <button class="accordion">What is the difference between Git and Github?</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <button class="accordion">What is the difference between GitHub Pages and Github Desktop?</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+
+      <button class="accordion">What is a Github Repo?</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  </section>
+  <hr>
+  <h2><em>Today</em> we will focus on setting up a Github Repo for your HW.</h2>
+  <div style="display: flex;">
+    <div class="image-medium">
+      <img src="img/create-new-repo.png">
+    </div>
+    <div class="image-medium">
+      <img src="img/publish-repo.png">
+    </div>
+  </div>
+  <h3>*Towards the end of the course we will revisit hosting your website with <a href="https://pages.github.com/">GitHub Pages</a></h3>
+  <hr>
+  <section class="html-review">
+    <h1>HTML HW Review</h1>
+    <p>Web Inspector - Box Model</p><br>
+    <p>HTML : Tags, Attributes, Class vs ID </p>
+  </section>
+  <hr>
+  <section class="css-intro">
+    <h1>Intro to CSS</h1>
+    <p>How can CSS be added to HTML?</p>
+    <p>
+      
+      CSS : Selectors, Properties, Values, Specificity, Pseudoselectors <br>
+      box model, padding, margin, width, height, position, display
+    </p>
+  </section>
+  <hr>
+  <h1>HW week-2</h1>
+  <p>duplicate each index from last week, each index will have difference ccs rules applied: the first receipt should be 'inverted', split the information up into 8 seperate divs and scramble the text, add a border to all the numbers and fill the background </p>
+  
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+</body>
+</html>

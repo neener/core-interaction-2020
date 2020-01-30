@@ -1,0 +1,60 @@
+h1 {
+  color: red;
+}
+
+code {
+  background-color: black;
+  color: chartreuse;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.image-medium {
+  height: 430px;
+}
+
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+
+/* accordion drop down */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 53%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  width: 75%;
+}
+
