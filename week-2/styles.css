@@ -53,8 +53,13 @@ img {
 .panel {
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color: rgba(126,113,202,0.2);
   overflow: hidden;
-  width: 75%;
+  width: 60%;
 }
 
+.hw-layout {
+  border: 1px solid black;
+  margin: 20px;
+  width: max-content;
+}
