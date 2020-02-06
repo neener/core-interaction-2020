@@ -8,54 +8,85 @@
 </head>
 <body>
   <h1>Core Interaction 2020</h1>
-  <ul>
-    <li>
-      <a href="https://neener.github.io/core-interaction-2020/week-1">week-1</a>
-    </li>
-    <li>Syllabus</li>
-    <li>VSCode</li>
-    <li>folder/organization</li>
-    <li>HTML !DOCTYPE</li>
-    <li>HTML intro/review</li>
-    <li>Github Desktop</li>
-    <li>Github Pages</li>
-  </ul>
-  <ul>
-    <li>
-      <a href="https://neener.github.io/core-interaction-2020/week-2">week-2</a>
-    </li>
-    <li>Git Review</li>
-    <li>Github Repo</li>
-    <li>Web Inspector</li>
-    <li>Box Model</li>
-    <li>HTML review</li>
-    <li>CSS intro</li>
-  </ul>
-  <ul>
-    <li>
-      <a href="https://neener.github.io/core-interaction-2020/week-3">week-3</a>
-    </li>
-    <li>Flexbox</li>
-    <li>CSS Grid</li>
-    <li>Project #1</li>
-  </ul>
-  <h1>Resources</h1>
+  <div class="grid-container">
+    <div class="grid-item-lab">
+      <h1>Lab</h1>
+      <ul>
+        <li>
+          <a href="https://neener.github.io/core-interaction-2020/week-1">week-1</a>
+        </li>
+        <li>Syllabus</li>
+        <li>VSCode</li>
+        <li>folder/organization</li>
+        <li>HTML !DOCTYPE</li>
+        <li>HTML intro/review</li>
+        <li>Github Desktop</li>
+        <li>Github Pages</li>
+      </ul>
+      <ul>
+        <li>
+          <a href="https://neener.github.io/core-interaction-2020/week-2">week-2</a>
+        </li>
+        <li>Git Review</li>
+        <li>Github Repo</li>
+        <li>Web Inspector</li>
+        <li>Box Model</li>
+        <li>HTML review</li>
+        <li>CSS intro</li>
+      </ul>
+      <ul>
+        <li>
+          <a href="https://neener.github.io/core-interaction-2020/week-3">week-3</a>
+        </li>
+        <li>Flexbox</li>
+        <li>CSS Grid</li>
+        <li>Project #1</li>
+      </ul>
+    </div>
+    <div class="grid-item-studio">
+      <h1>Studio</h1>
+      <h3>Readings</h3>
+      <ul>
+        <li><a href="img/le-guin_where-do-get-your-ideas-from.pdf">Ursula K. Le Guin "Where Do You Get Your Ideas From?"</a></li>
+        <li><a href="img/kinross_large-and-small-letters.pdf">Robin Kinross "Large and small letters: authority and democracy"</a></li>
+      </ul>
+      <h3>Assignments</h3>
+      <ul>
+        <li><a href="img/core-studio-interaction_assignment-1.pdf">Assignment 1</a></li>
+        <li><a href="img/core-studio-interaction_assignment-1_references.pdf">Assignment 1 Presentation</a></li>
+        <li><a href="img/core-studio-interaction_week-3_scrolling.pdf">Scrolling Presentation</a></li>
+      </ul>
+      <h3><a href="img/PUCD_2125_D_ABBE_S20.pdf">Core Studio Interaction Spring 2020 Syllabus</a></h4>
+    </div>
+  </div>
 </body>
 <style>
   body {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:whitesmoke;
   }
-  li:first-child{
+  .grid-item-lab li:first-child{
     list-style-type: none;
     margin-bottom: 15px;
   }
 
-  a:nth-child(1){
+  .grid-item-lab a:nth-child(1){
     color:black;
   }
-  a{
+  
+  .grid-item-lab a{
     font-size: x-large;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-item-lab {
+    grid-column: 1/7;
+  }
+  .grid-item-studio {
+    grid-column: 7/13;
   }
 </style>
 </html>
