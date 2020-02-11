@@ -3,9 +3,8 @@ body {
   background-color:darkgrey;
 }
 
-.grid-item-lab li:first-child{
-  list-style-type: none;
-  margin-bottom: 15px;
+a {
+  text-decoration: none;
 }
 
 .grid-container {
