@@ -1,3 +1,13 @@
+body {
+  font-family:"Helvetica";
+  background-color:darkgrey;
+}
+
+code {
+  background-color: black;
+  color: chartreuse;
+}
+
 .button {
   width: 120px;
   height: 24px;
@@ -44,12 +54,13 @@
 }
 
 .img-medium {
-  width: 450px;
+  width: 700px;
   padding: 35px;
 }
 
 .img-large {
   width: 1000px;
+  margin-top: 30px;
 }
 
 #heart-box{
