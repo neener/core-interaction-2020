@@ -53,6 +53,14 @@ code {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0)));
 }
 
+.img-tiny {
+  width:100px;
+}
+
+.img-small {
+  width: 400px;
+}
+
 .img-medium {
   width: 700px;
   padding: 35px;
@@ -71,4 +79,6 @@ code {
   background-color: lightgray;
   width: 1000px;
   height: auto;
+  margin-bottom: 50px;
+  padding: 5px;
 }
